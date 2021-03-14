@@ -1,0 +1,496 @@
+2021-03-14 15:45:17,564   15240     INFO test_runner.py(156) - 预计并发线程数：5
+2021-03-14 15:45:17,568    6260     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,569   21800     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,569   16244     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,570   23632     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,570   17292     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,677   23632     INFO result.py(69) - 开始测试： test_skip (__main__.TestOne)
+2021-03-14 15:45:17,677   17292     INFO result.py(69) - 开始测试： test_skip_ (__main__.TestOne)
+2021-03-14 15:45:17,677   16244     INFO result.py(69) - 开始测试： test_image (__main__.TestOne)
+2021-03-14 15:45:17,683   21800     INFO result.py(69) - 开始测试： test_false (__main__.TestOne)
+2021-03-14 15:45:17,683   23632     INFO result.py(142) - 跳过测试： test_skip (__main__.TestOne)
+跳过用例
+2021-03-14 15:45:17,683    6260     INFO result.py(69) - 开始测试： test_error (__main__.TestOne)
+2021-03-14 15:45:17,709   17292     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:17,745   16244     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:17,811   17292  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:17,759   21800     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:17,775   23632     INFO result.py(90) - 测试结束： test_skip (__main__.TestOne)
+2021-03-14 15:45:17,798    6260     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:17,836   16244  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:17,842   17292    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:17,855   23632     INFO result.py(91) - 耗时： 0.09175562858581543
+2021-03-14 15:45:17,849   21800  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:17,868    6260  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:17,887   17292     INFO HTMLReport_test.py(58) - 准备跳过
+2021-03-14 15:45:17,874   16244    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:17,900   21800    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:17,900   23632     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,900    6260    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:17,901   17292     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:17,901   21800     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:17,901    6260     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:17,901   17292     INFO result.py(142) - 跳过测试： test_skip_ (__main__.TestOne)
+中途跳过
+2021-03-14 15:45:17,903   21800  WARNING result.py(190) - 测试未通过： test_false (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 33, in test_false
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:17,902   17292     INFO result.py(90) - 测试结束： test_skip_ (__main__.TestOne)
+2021-03-14 15:45:17,903   21800     INFO result.py(90) - 测试结束： test_false (__main__.TestOne)
+2021-03-14 15:45:17,903   17292     INFO result.py(91) - 耗时： 0.1934514045715332
+2021-03-14 15:45:17,903   21800     INFO result.py(91) - 耗时： 0.14464235305786133
+2021-03-14 15:45:17,904   21800     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:17,904   21800     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,904    6260    ERROR result.py(175) - 测试产生错误： test_error (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 41, in test_error
+    self.assertTrue(int("5.2"))
+ValueError: invalid literal for int() with base 10: '5.2'
+
+2021-03-14 15:45:17,904    6260     INFO result.py(90) - 测试结束： test_error (__main__.TestOne)
+2021-03-14 15:45:17,904    6260     INFO result.py(91) - 耗时： 0.10671520233154297
+2021-03-14 15:45:17,905    6260     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:17,905    6260     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:17,907   16244     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:17,907   16244     INFO result.py(156) - 测试执行通过： test_image (__main__.TestOne)
+2021-03-14 15:45:17,907   16244     INFO result.py(90) - 测试结束： test_image (__main__.TestOne)
+2021-03-14 15:45:17,907   16244     INFO result.py(91) - 耗时： 0.1625657081604004
+2021-03-14 15:45:18,005   23632     INFO result.py(69) - 开始测试： test_true (__main__.TestOne)
+2021-03-14 15:45:18,005   23632     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,005   23632  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,005   23632    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,005   23632     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,005   23632     INFO result.py(156) - 测试执行通过： test_true (__main__.TestOne)
+2021-03-14 15:45:18,006   23632     INFO result.py(90) - 测试结束： test_true (__main__.TestOne)
+2021-03-14 15:45:18,006   23632     INFO result.py(91) - 耗时： 0.0008597373962402344
+2021-03-14 15:45:18,006    6260     INFO result.py(69) - 开始测试： test_error (__main__.TestOne)
+2021-03-14 15:45:18,006   21800     INFO result.py(69) - 开始测试： test_false (__main__.TestOne)
+2021-03-14 15:45:18,006    6260     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,006   21800     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,006    6260  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,007   21800  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,007    6260    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,007   21800    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,007    6260     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,007   21800     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,007    6260    ERROR result.py(175) - 测试产生错误： test_error (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 41, in test_error
+    self.assertTrue(int("5.2"))
+ValueError: invalid literal for int() with base 10: '5.2'
+
+2021-03-14 15:45:18,008   21800  WARNING result.py(190) - 测试未通过： test_false (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 33, in test_false
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:18,008    6260     INFO result.py(90) - 测试结束： test_error (__main__.TestOne)
+2021-03-14 15:45:18,008   21800     INFO result.py(90) - 测试结束： test_false (__main__.TestOne)
+2021-03-14 15:45:18,008    6260     INFO result.py(91) - 耗时： 0.0019943714141845703
+2021-03-14 15:45:18,008   21800     INFO result.py(91) - 耗时： 0.0019943714141845703
+2021-03-14 15:45:18,008    6260     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,008   21800     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,008    6260     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,008   21800     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,110   21800     INFO result.py(69) - 开始测试： test_false (__main__.TestOne)
+2021-03-14 15:45:18,110   21800     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,110   21800  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,110   21800    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,110   21800     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,110    6260     INFO result.py(69) - 开始测试： test_error (__main__.TestOne)
+2021-03-14 15:45:18,111    6260     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,111    6260  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,111    6260    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,111    6260     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,111    6260    ERROR result.py(175) - 测试产生错误： test_error (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 41, in test_error
+    self.assertTrue(int("5.2"))
+ValueError: invalid literal for int() with base 10: '5.2'
+
+2021-03-14 15:45:18,111    6260     INFO result.py(90) - 测试结束： test_error (__main__.TestOne)
+2021-03-14 15:45:18,111   21800  WARNING result.py(190) - 测试未通过： test_false (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 33, in test_false
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:18,112    6260     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,112   21800     INFO result.py(90) - 测试结束： test_false (__main__.TestOne)
+2021-03-14 15:45:18,112    6260     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,112   21800     INFO result.py(91) - 耗时： 0.00186920166015625
+2021-03-14 15:45:18,112    6260     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,112   21800     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,113   21800     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,216    6260     INFO result.py(69) - 开始测试： test_error (__main__.TestOne)
+2021-03-14 15:45:18,216    6260     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,216    6260  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,216    6260    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,216    6260     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,216   21800     INFO result.py(69) - 开始测试： test_false (__main__.TestOne)
+2021-03-14 15:45:18,216   21800     INFO HTMLReport_test.py(14) - 测试开始
+2021-03-14 15:45:18,217   21800  WARNING HTMLReport_test.py(15) - 测试开始
+2021-03-14 15:45:18,217   21800    ERROR HTMLReport_test.py(16) - 测试开始
+2021-03-14 15:45:18,217   21800     INFO HTMLReport_test.py(19) - 测试结束
+2021-03-14 15:45:18,217    6260    ERROR result.py(175) - 测试产生错误： test_error (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 41, in test_error
+    self.assertTrue(int("5.2"))
+ValueError: invalid literal for int() with base 10: '5.2'
+
+2021-03-14 15:45:18,217   21800  WARNING result.py(190) - 测试未通过： test_false (__main__.TestOne)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 33, in test_false
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:18,217    6260     INFO result.py(90) - 测试结束： test_error (__main__.TestOne)
+2021-03-14 15:45:18,217   21800     INFO result.py(90) - 测试结束： test_false (__main__.TestOne)
+2021-03-14 15:45:18,218    6260     INFO result.py(91) - 耗时： 0.0009980201721191406
+2021-03-14 15:45:18,218   21800     INFO result.py(91) - 耗时： 0.0009980201721191406
+2021-03-14 15:45:18,218   25456     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,218   25344     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,219   24756     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,321   25344     INFO result.py(69) - 开始测试： test_a_2_1 (__main__.TestDDT)
+2021-03-14 15:45:18,321   25344     INFO HTMLReport_test.py(76) - 测试开始
+2021-03-14 15:45:18,321   25344     INFO data_driven.py(102) - args:
+(1,)
+2021-03-14 15:45:18,321   25344     INFO HTMLReport_test.py(79) - 测试结束
+2021-03-14 15:45:18,321   25344     INFO result.py(156) - 测试执行通过： test_a_2_1 (__main__.TestDDT)
+2021-03-14 15:45:18,321   25456     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestDDT)
+2021-03-14 15:45:18,321   25344     INFO result.py(90) - 测试结束： test_a_2_1 (__main__.TestDDT)
+2021-03-14 15:45:18,321   25456     INFO HTMLReport_test.py(76) - 测试开始
+2021-03-14 15:45:18,322   25344     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,322   25456     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,322   24756     INFO result.py(69) - 开始测试： test_a_3_2 (__main__.TestDDT)
+2021-03-14 15:45:18,322   25456     INFO HTMLReport_test.py(79) - 测试结束
+2021-03-14 15:45:18,322   24756     INFO HTMLReport_test.py(76) - 测试开始
+2021-03-14 15:45:18,322   25456     INFO result.py(156) - 测试执行通过： test_a_1_0 (__main__.TestDDT)
+2021-03-14 15:45:18,323   24756     INFO data_driven.py(102) - args:
+(2,)
+2021-03-14 15:45:18,323   25456     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestDDT)
+2021-03-14 15:45:18,323   24756     INFO HTMLReport_test.py(79) - 测试结束
+2021-03-14 15:45:18,323   25456     INFO result.py(91) - 耗时： 0.0019683837890625
+2021-03-14 15:45:18,323   24756     INFO result.py(156) - 测试执行通过： test_a_3_2 (__main__.TestDDT)
+2021-03-14 15:45:18,323   24756     INFO result.py(90) - 测试结束： test_a_3_2 (__main__.TestDDT)
+2021-03-14 15:45:18,323   24756     INFO result.py(91) - 耗时： 0.0009980201721191406
+2021-03-14 15:45:18,324    7704     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,324   11048     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,325   21160     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,426    7704     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,426   11048     INFO result.py(69) - 开始测试： test_a_2_1 (__main__.TestRetry)
+2021-03-14 15:45:18,426    7704     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,426   11048     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,426    7704     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,426   11048     INFO data_driven.py(102) - args:
+(1,)
+2021-03-14 15:45:18,427    7704     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,427   11048     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,427    7704  WARNING result.py(190) - 测试未通过： test_a_1_0 (__main__.TestRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 115, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 0 != 1
+
+2021-03-14 15:45:18,427    7704     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,428    7704     INFO result.py(91) - 耗时： 0.000997304916381836
+2021-03-14 15:45:18,427   11048  WARNING result.py(190) - 测试未通过： test_a_2_1 (__main__.TestRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 115, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 1 != 0
+
+2021-03-14 15:45:18,428    7704     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,428   11048     INFO result.py(90) - 测试结束： test_a_2_1 (__main__.TestRetry)
+2021-03-14 15:45:18,428    7704     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,428   11048     INFO result.py(91) - 耗时： 0.0020182132720947266
+2021-03-14 15:45:18,428   11048     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,428   11048     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,430   21160     INFO result.py(69) - 开始测试： test_a_3_2 (__main__.TestRetry)
+2021-03-14 15:45:18,430   21160     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,430   21160     INFO data_driven.py(102) - args:
+(2,)
+2021-03-14 15:45:18,430   21160     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,430   21160     INFO result.py(156) - 测试执行通过： test_a_3_2 (__main__.TestRetry)
+2021-03-14 15:45:18,430   21160     INFO result.py(90) - 测试结束： test_a_3_2 (__main__.TestRetry)
+2021-03-14 15:45:18,430   21160     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,531    7704     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,531    7704     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,531    7704     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,531    7704     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,532   11048     INFO result.py(69) - 开始测试： test_a_2_1 (__main__.TestRetry)
+2021-03-14 15:45:18,532   11048     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,532   11048     INFO data_driven.py(102) - args:
+(1,)
+2021-03-14 15:45:18,532   11048     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,532   11048     INFO result.py(156) - 测试执行通过： test_a_2_1 (__main__.TestRetry)
+2021-03-14 15:45:18,532   11048     INFO result.py(90) - 测试结束： test_a_2_1 (__main__.TestRetry)
+2021-03-14 15:45:18,532   11048     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,532    7704  WARNING result.py(190) - 测试未通过： test_a_1_0 (__main__.TestRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 115, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 0 != 1
+
+2021-03-14 15:45:18,533    7704     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,533    7704     INFO result.py(91) - 耗时： 0.0018227100372314453
+2021-03-14 15:45:18,533    7704     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,533    7704     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,635    7704     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,635    7704     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,635    7704     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,635    7704     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,635    7704  WARNING result.py(190) - 测试未通过： test_a_1_0 (__main__.TestRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 115, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 0 != 2
+
+2021-03-14 15:45:18,635    7704     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,635    7704     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,635    7704     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,636    7704     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,737    7704     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,737    7704     INFO HTMLReport_test.py(107) - 测试开始
+2021-03-14 15:45:18,737    7704     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,737    7704     INFO HTMLReport_test.py(110) - 测试结束
+2021-03-14 15:45:18,737    7704     INFO result.py(156) - 测试执行通过： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,737    7704     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestRetry)
+2021-03-14 15:45:18,737    7704     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,738   22872     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,739   21804     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,739   21632     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,841   21804     INFO result.py(69) - 开始测试： test_a_2_1 (__main__.TestNoRetry)
+2021-03-14 15:45:18,841   21804     INFO HTMLReport_test.py(91) - 测试开始
+2021-03-14 15:45:18,841   21804     INFO data_driven.py(102) - args:
+(1,)
+2021-03-14 15:45:18,841   21632     INFO result.py(69) - 开始测试： test_a_3_2 (__main__.TestNoRetry)
+2021-03-14 15:45:18,841   21804     INFO HTMLReport_test.py(94) - 测试结束
+2021-03-14 15:45:18,841   22872     INFO result.py(69) - 开始测试： test_a_1_0 (__main__.TestNoRetry)
+2021-03-14 15:45:18,841   21632     INFO HTMLReport_test.py(91) - 测试开始
+2021-03-14 15:45:18,842   21804     INFO result.py(156) - 测试执行通过： test_a_2_1 (__main__.TestNoRetry)
+2021-03-14 15:45:18,842   22872     INFO HTMLReport_test.py(91) - 测试开始
+2021-03-14 15:45:18,842   21632     INFO data_driven.py(102) - args:
+(2,)
+2021-03-14 15:45:18,842   21804     INFO result.py(90) - 测试结束： test_a_2_1 (__main__.TestNoRetry)
+2021-03-14 15:45:18,842   22872     INFO data_driven.py(102) - args:
+(0,)
+2021-03-14 15:45:18,842   21632     INFO HTMLReport_test.py(94) - 测试结束
+2021-03-14 15:45:18,843   21804     INFO result.py(91) - 耗时： 0.0008668899536132812
+2021-03-14 15:45:18,843   22872     INFO HTMLReport_test.py(94) - 测试结束
+2021-03-14 15:45:18,843   21632  WARNING result.py(190) - 测试未通过： test_a_3_2 (__main__.TestNoRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 99, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 2 != 0
+
+2021-03-14 15:45:18,843   21632     INFO result.py(90) - 测试结束： test_a_3_2 (__main__.TestNoRetry)
+2021-03-14 15:45:18,843   21632     INFO result.py(91) - 耗时： 0.0018656253814697266
+2021-03-14 15:45:18,844   22872  WARNING result.py(190) - 测试未通过： test_a_1_0 (__main__.TestNoRetry)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\HTMLReport\src\tools\data_driven.py", line 105, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 99, in test_a
+    self.assertEqual(n, random.randint(0, 2))
+AssertionError: 0 != 2
+
+2021-03-14 15:45:18,844   22872     INFO result.py(90) - 测试结束： test_a_1_0 (__main__.TestNoRetry)
+2021-03-14 15:45:18,844   22872     INFO result.py(91) - 耗时： 0.002021312713623047
+2021-03-14 15:45:18,844   15240     INFO HTMLReport_test.py(127) - 初始计数：0
+2021-03-14 15:45:18,844   24520     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,845   15240     INFO HTMLReport_test.py(131) - 最终计数：0
+2021-03-14 15:45:18,845   21464     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:18,948   24520     INFO result.py(69) - 开始测试： test_1 (__main__.TestClassMethod)
+2021-03-14 15:45:18,948   24520     INFO HTMLReport_test.py(134) - 前置计数：0
+2021-03-14 15:45:18,948   24520     INFO HTMLReport_test.py(141) - 运行修改：1
+2021-03-14 15:45:18,948   24520     INFO HTMLReport_test.py(137) - 后置计数：1
+2021-03-14 15:45:18,948   24520     INFO result.py(156) - 测试执行通过： test_1 (__main__.TestClassMethod)
+2021-03-14 15:45:18,948   24520     INFO result.py(90) - 测试结束： test_1 (__main__.TestClassMethod)
+2021-03-14 15:45:18,948   21464     INFO result.py(69) - 开始测试： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:18,949   24520     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,949   21464     INFO HTMLReport_test.py(134) - 前置计数：1
+2021-03-14 15:45:18,949   21464     INFO HTMLReport_test.py(145) - 运行修改：2
+2021-03-14 15:45:18,949   21464     INFO HTMLReport_test.py(137) - 后置计数：2
+2021-03-14 15:45:18,949   21464  WARNING result.py(190) - 测试未通过： test_2 (__main__.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:18,949   21464     INFO result.py(90) - 测试结束： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:18,949   21464     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:18,949   21464     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:18,950   21464     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,054   21464     INFO result.py(69) - 开始测试： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,054   21464     INFO HTMLReport_test.py(134) - 前置计数：2
+2021-03-14 15:45:19,054   21464     INFO HTMLReport_test.py(145) - 运行修改：3
+2021-03-14 15:45:19,054   21464     INFO HTMLReport_test.py(137) - 后置计数：3
+2021-03-14 15:45:19,054   21464  WARNING result.py(190) - 测试未通过： test_2 (__main__.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,054   21464     INFO result.py(90) - 测试结束： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,054   21464     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,054   21464     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:19,055   21464     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,155   21464     INFO result.py(69) - 开始测试： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,155   21464     INFO HTMLReport_test.py(134) - 前置计数：3
+2021-03-14 15:45:19,155   21464     INFO HTMLReport_test.py(145) - 运行修改：4
+2021-03-14 15:45:19,155   21464     INFO HTMLReport_test.py(137) - 后置计数：4
+2021-03-14 15:45:19,155   21464  WARNING result.py(190) - 测试未通过： test_2 (__main__.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,155   21464     INFO result.py(90) - 测试结束： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,155   21464     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,155   21464     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:19,156   21464     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,260   21464     INFO result.py(69) - 开始测试： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,260   21464     INFO HTMLReport_test.py(134) - 前置计数：4
+2021-03-14 15:45:19,260   21464     INFO HTMLReport_test.py(145) - 运行修改：5
+2021-03-14 15:45:19,260   21464     INFO HTMLReport_test.py(137) - 后置计数：5
+2021-03-14 15:45:19,261   21464  WARNING result.py(190) - 测试未通过： test_2 (__main__.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,261   21464     INFO result.py(90) - 测试结束： test_2 (__main__.TestClassMethod)
+2021-03-14 15:45:19,261   21464     INFO result.py(91) - 耗时： 0.0007965564727783203
+2021-03-14 15:45:19,261   25352     INFO HTMLReport_test.py(131) - 最终计数：5
+2021-03-14 15:45:19,261   25352     INFO HTMLReport_test.py(127) - 初始计数：0
+2021-03-14 15:45:19,262   25352     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,365   25352     INFO result.py(69) - 开始测试： test_1 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,365   25352     INFO HTMLReport_test.py(134) - 前置计数：0
+2021-03-14 15:45:19,365   25352     INFO HTMLReport_test.py(141) - 运行修改：1
+2021-03-14 15:45:19,365   25352     INFO HTMLReport_test.py(137) - 后置计数：1
+2021-03-14 15:45:19,365   25352     INFO result.py(156) - 测试执行通过： test_1 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,365   25352     INFO result.py(90) - 测试结束： test_1 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,365   25352     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,365   25352     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,468   25352     INFO result.py(69) - 开始测试： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,468   25352     INFO HTMLReport_test.py(134) - 前置计数：1
+2021-03-14 15:45:19,468   25352     INFO HTMLReport_test.py(145) - 运行修改：2
+2021-03-14 15:45:19,468   25352     INFO HTMLReport_test.py(137) - 后置计数：2
+2021-03-14 15:45:19,468   25352  WARNING result.py(190) - 测试未通过： test_2 (HTMLReport_test.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,468   25352     INFO result.py(90) - 测试结束： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,469   25352     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,469   25352     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:19,469   25352     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,571   25352     INFO result.py(69) - 开始测试： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,571   25352     INFO HTMLReport_test.py(134) - 前置计数：2
+2021-03-14 15:45:19,571   25352     INFO HTMLReport_test.py(145) - 运行修改：3
+2021-03-14 15:45:19,571   25352     INFO HTMLReport_test.py(137) - 后置计数：3
+2021-03-14 15:45:19,571   25352  WARNING result.py(190) - 测试未通过： test_2 (HTMLReport_test.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,571   25352     INFO result.py(90) - 测试结束： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,571   25352     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,572   25352     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:19,572   25352     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,675   25352     INFO result.py(69) - 开始测试： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,675   25352     INFO HTMLReport_test.py(134) - 前置计数：3
+2021-03-14 15:45:19,675   25352     INFO HTMLReport_test.py(145) - 运行修改：4
+2021-03-14 15:45:19,676   25352     INFO HTMLReport_test.py(137) - 后置计数：4
+2021-03-14 15:45:19,676   25352  WARNING result.py(190) - 测试未通过： test_2 (HTMLReport_test.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,676   25352     INFO result.py(90) - 测试结束： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,676   25352     INFO result.py(91) - 耗时： 0.0007898807525634766
+2021-03-14 15:45:19,676   25352     INFO result.py(112) - 等待 0 秒后重试
+2021-03-14 15:45:19,676   25352     INFO result.py(67) - 测试延迟启动：0.1s
+2021-03-14 15:45:19,777   25352     INFO result.py(69) - 开始测试： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,777   25352     INFO HTMLReport_test.py(134) - 前置计数：4
+2021-03-14 15:45:19,777   25352     INFO HTMLReport_test.py(145) - 运行修改：5
+2021-03-14 15:45:19,777   25352     INFO HTMLReport_test.py(137) - 后置计数：5
+2021-03-14 15:45:19,777   25352  WARNING result.py(190) - 测试未通过： test_2 (HTMLReport_test.TestClassMethod)
+Traceback (most recent call last):
+  File "C:\Users\liush\Documents\GitHub\htmlreport\tests\HTMLReport_test.py", line 146, in test_2
+    self.assertTrue(False)
+AssertionError: False is not true
+
+2021-03-14 15:45:19,777   25352     INFO result.py(90) - 测试结束： test_2 (HTMLReport_test.TestClassMethod)
+2021-03-14 15:45:19,777   25352     INFO result.py(91) - 耗时： 0.0
+2021-03-14 15:45:19,777   25352     INFO HTMLReport_test.py(131) - 最终计数：5
+2021-03-14 15:45:19,778   15240     INFO test_runner.py(193) - 
+Pass	test_image (__main__.TestOne)	测试截图
+Pass	test_true (__main__.TestOne)	测试通过
+Pass	test_a_2_1 (__main__.TestDDT)
+Pass	test_a_1_0 (__main__.TestDDT)
+Pass	test_a_3_2 (__main__.TestDDT)
+Pass	test_a_3_2 (__main__.TestRetry)
+Pass	test_a_2_1 (__main__.TestRetry)
+Pass	test_a_1_0 (__main__.TestRetry)
+Pass	test_a_2_1 (__main__.TestNoRetry)
+Pass	test_1 (__main__.TestClassMethod)
+Pass	test_1 (HTMLReport_test.TestClassMethod)
+
+2021-03-14 15:45:19,778   15240    ERROR test_runner.py(195) - 
+Skip	test_skip (__main__.TestOne)	测试跳过
+Skip	test_skip_ (__main__.TestOne)	测试中途跳过
+Fail	test_false (__main__.TestOne)	测试失败
+Error	test_error (__main__.TestOne)	测试异常
+Error	test_error (__main__.TestOne)	测试异常
+Fail	test_false (__main__.TestOne)	测试失败
+Error	test_error (__main__.TestOne)	测试异常
+Fail	test_false (__main__.TestOne)	测试失败
+Error	test_error (__main__.TestOne)	测试异常
+Fail	test_false (__main__.TestOne)	测试失败
+Fail	test_a_1_0 (__main__.TestRetry)
+Fail	test_a_2_1 (__main__.TestRetry)
+Fail	test_a_1_0 (__main__.TestRetry)
+Fail	test_a_1_0 (__main__.TestRetry)
+Fail	test_a_3_2 (__main__.TestNoRetry)
+Fail	test_a_1_0 (__main__.TestNoRetry)
+Fail	test_2 (__main__.TestClassMethod)
+Fail	test_2 (__main__.TestClassMethod)
+Fail	test_2 (__main__.TestClassMethod)
+Fail	test_2 (__main__.TestClassMethod)
+Fail	test_2 (HTMLReport_test.TestClassMethod)
+Fail	test_2 (HTMLReport_test.TestClassMethod)
+Fail	test_2 (HTMLReport_test.TestClassMethod)
+Fail	test_2 (HTMLReport_test.TestClassMethod)
+
+2021-03-14 15:45:19,780   15240     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:02.368438
+共计执行用例数量：19
+执行成功用例数量：11
+执行失败用例数量：5
+跳过执行用例数量：2
+产生异常用例数量：1
+
